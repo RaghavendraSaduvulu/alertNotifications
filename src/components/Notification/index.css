@@ -1,0 +1,33 @@
+.details {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.notification-container {
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  border-radius: 5px;
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .notification-container {
+    width: 90%;
+  }
+}
+
+.notification-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid yellow; */
+  width: 100%;
+}
+.close-icon {
+  font-size: 25px;
+  align-self: center;
+}
